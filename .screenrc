@@ -1,0 +1,5 @@
+#Cursor works in screen - based on http://stackoverflow.com/questions/4548106/screen-somehow-unmaps-my-arrow-keys-in-emacs-after-a-z
+bindkey -k ku stuff ^[OA
+bindkey -k kd stuff ^[OB
+bindkey -k kr stuff ^[OC
+bindkey -k kl stuff ^[OD
