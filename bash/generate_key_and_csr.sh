@@ -21,7 +21,12 @@ ROOT_CA_CERT_FILE="startssl_root_ca.crt"
 DOMAIN=""
  
 if [ "x$1" == "x" ]; then
-  DOMAIN="example.com"
+  echo ""
+  echo "Usage:"
+  echo "$0 [domain.com]"
+  echo ""
+  exit 1
+  #DOMAIN="example.com"
 else
   DOMAIN="$1"
 fi
